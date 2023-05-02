@@ -71,8 +71,13 @@
 # Use `Model.destroy_all` code.
 # TODO!
 
+##rails generate model Studio
+
+
 # Generate models and tables, according to the domain model.
 # TODO!
+
+#rails generate model Studio
 
 # Insert data into the database that reflects the sample data shown above.
 # Do not use hard-coded foreign key IDs.
