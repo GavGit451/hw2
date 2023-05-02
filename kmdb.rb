@@ -161,7 +161,118 @@ new_movie.save
 
 #Roles
 
+batmanbegins = Movie.find_by({"name" => "Batman Begins"})
+darkknight = Movie.find_by({"name" => "The Dark Knight"})
+darkrises = Movie.find_by({"name" => "The Dark Knight Rises"})
+
+ anne = actor.find_by({"name" => "Anne Hathaway"})
+ christian = actor.find_by({"name" => "Christian Bale"})
+ michael = actor.find_by({"name" => "Michael Caine"})
+ liam = actor.find_by({"name" => "Liam Neeson"})
+ katie = actor.find_by({"name" => "Katie Holmes"})
+ gary = actor.find_by({"name" => "Gary Oldman"})
+ heath = actor.find_by({"name" => "Heath Ledger"})
+ aaron = actor.find_by({"name" => "Aaron Eckhart"})
+ maggie = actor.find_by({"name" => "Maggie Gyllenhaal"})
+ tom = actor.find_by({"name" => "Tom Hardy"})
+ joseph = actor.find_by({"name" => "Joseph Gordon-Levitt"})
+
+
 new_role = Role.new
+new_role = ["movie_id"] = batmanbegins["id"]
+new_role = ["actor_id"] = christian["id"]
+new_role = ["character_name"] = "Bruce Wayne"
+
+role2 = Role.new
+role2 = ["movie_id"] = darkknight["id"]
+role2 = ["actor_id"] = christian["id"]
+role2 = ["character_name"] = "Bruce Wayne"
+
+role3 = Role.new
+role3 = ["movie_id"] = darkrises["id"]
+role3 = ["actor_id"] = christian["id"]
+role = ["character_name"] = "Bruce Wayne"
+
+role4 = Role.new
+role4 = ["movie_id"] = batmanbegins["id"]
+role4 = ["actor_id"] = michael["id"]
+role4 = ["character_name"] = "Alfred"
+
+role5 = Role.new
+role5 = ["movie_id"] = darkknight["id"]
+role5 = ["actor_id"] = michael["id"]
+role5 = ["character_name"] = "Alfred"
+
+role6 = Role.new
+role6 = ["movie_id"] = batmanbegins["id"]
+role6 = ["actor_id"] = liam["id"]
+role6 = ["character_name"] = "Ra's Al Ghul"
+
+role7 = Role.new
+role7 = ["movie_id"] = batmanbegins["id"]
+role7 = ["actor_id"] = katie["id"]
+role7 = ["character_name"] = "Rachel Dawes"
+
+role8 = Role.new
+role8 = ["movie_id"] = darkknight["id"]
+role8 = ["actor_id"] = maggie["id"]
+role8 = ["character_name"] = "Rachel Dawes"
+
+role9 = Role.new
+role9 = ["movie_id"] = darkknight["id"]
+role9 = ["actor_id"] = gary["id"]
+role9 = ["character_name"] = "Commissioner Gordon"
+
+role10 = Role.new
+role10 = ["movie_id"] = darkrises["id"]
+role10 = ["actor_id"] = gary["id"]
+role10 = ["character_name"] = "Commissioner Gordon"
+
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
+
+role = Role.new
+role = ["movie_id"] = ["id"]
+role = ["actor_id"] = ["id"]
+role = ["character_name"] = ""
 
 
 
