@@ -228,52 +228,30 @@ role10 = ["movie_id"] = darkrises["id"]
 role10 = ["actor_id"] = gary["id"]
 role10 = ["character_name"] = "Commissioner Gordon"
 
+role11 = Role.new
+role11 = ["movie_id"] = darkknight["id"]
+role11 = ["actor_id"] = heath["id"]
+role11 = ["character_name"] = "Joker"
 
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
+role12 = Role.new
+role12 = ["movie_id"] = darkknight["id"]
+role12 = ["actor_id"] = aaron["id"]
+role12 = ["character_name"] = "Harvey Dent"
 
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
+role13 = Role.new
+role13 = ["movie_id"] = darkrises["id"]
+role13 = ["actor_id"] = tom["id"]
+role13 = ["character_name"] = "Bane"
 
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
+role14 = Role.new
+role14 = ["movie_id"] = darkrises["id"]
+role14 = ["actor_id"] = joseph["id"]
+role14 = ["character_name"] = "John Blake"
 
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
-
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
-
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
-
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
-
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
-
-role = Role.new
-role = ["movie_id"] = ["id"]
-role = ["actor_id"] = ["id"]
-role = ["character_name"] = ""
-
+role15 = Role.new
+role15 = ["movie_id"] = darkrises["id"]
+role15 = ["actor_id"] = anne["id"]
+role15 = ["character_name"] = "Selina Kyle"
 
 
 # Prints a header for the movies output
