@@ -91,10 +91,78 @@
 # Do not use hard-coded foreign key IDs.
 # TODO!
 
+#Studio
+
 new_studio = Studio.new
-puts new_studio.inspect
+new_studio["name"] = "Warner Bros."
+new_studio.save
 
 #puts "There are #{Studio.all.count}"
+
+# #Movie
+
+warnerbros = Studio.find_by({"name" => "Warner Bros."})
+
+new_movie = Movie.new
+new_movie["title"] = "Batman Begins"
+new_movie["year"] = "2005"
+new_movie["rated"] = "PG-13"
+new_movie["studio_id"] = warnerbros["id"]
+new_movie.save
+
+# movie2 = Movie.new
+# movie2["title"] = "The Dark Knight"
+# movie2["year"] = "2008"
+# movie2["rated"] = "PG-13"
+# movie2["studio_id"] = ["id"]
+# movie2.save
+
+# movie3 = Movie.new
+# movie3["title"] = "The Dark Knight Rises"
+# movie3["year"] = "2012"
+# movie3["rated"] = "PG-13"
+# movie3["studio_id"] = warnerbros["id"]
+# movie3.save
+
+#Actors
+
+# new_actor = Actor.new
+# new_actor["name"] = "Christian Bale"
+
+# actor3 = Actor.new
+# actor3["name"] = "Michael Caine"
+
+# actor4 = Actor.new
+# actor4["name"] = "Liam Neeson"
+
+# actor5 = Actor.new
+# actor5["name"] = "Katie Holmes"
+
+# actor6 = Actor.new
+# actor6["name"] = "Gary Oldman"
+
+# actor7 = Actor.new
+# actor7["name"] = "Heath Ledger"
+
+# actor8 = Actor.new
+# actor8["name"] = "Aaron Eckhart"
+
+# actor9 = Actor.new
+# actor9["name"] = "Maggie Gyllenhaal"
+
+# actor10 = Actor.new
+# actor10["name"] = "Tom Hardy"
+
+# actor11 = Actor.new
+# actor11["name"] = "Joseph Gordon-Levitt"
+
+# actor12 = Actor.new
+# actor12["name"] = "Anne Hathaway"
+
+#Roles
+
+new_role = Role.new
+
 
 
 # Prints a header for the movies output
