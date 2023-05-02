@@ -71,17 +71,31 @@
 # Use `Model.destroy_all` code.
 # TODO!
 
-##rails generate model Studio
+    Actor.destroy_all
+    Movie.destroy_all
+    Role.destroy_all
+    Studio.destroy_all    
 
 
 # Generate models and tables, according to the domain model.
 # TODO!
 
-#rails generate model Studio
+    #rails generate model Studio
+    #rails generate model Movie
+    #rails generate model Actor
+    #rails generate model Role
+
+    #rails db:migrate
 
 # Insert data into the database that reflects the sample data shown above.
 # Do not use hard-coded foreign key IDs.
 # TODO!
+
+new_studio = Studio.new
+puts new_studio.inspect
+
+#puts "There are #{Studio.all.count}"
+
 
 # Prints a header for the movies output
 puts "Movies"
@@ -90,6 +104,9 @@ puts ""
 
 # Query the movies data and loop through the results to display the movies output.
 # TODO!
+
+
+
 
 # Prints a header for the cast output
 puts ""
